@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', 'Ubuntu', sans-serif;
+  color: #344c5d;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+
+/* Expertise */
+
+.expertise {
+  padding-bottom: 70px;
+}
+
+.expertise-title {
+  margin-bottom: 50px;
+  margin-top: -7px;
+}
+
+.expertise-title h2 {
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  position: relative;
+  font-family: 'Lato';
+}
+
+.expertise-title h2::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  height: 5px;
+  background-color: #4f4ff0;
+}
+
+.expertise-cards {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.expertise-cards .expertise-item {
+  background-color: #ababe2;
+  padding: 42px 25px 35px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  height: 350px;
+}
+
+.expertise-cards .expertise-item i {
+  display: block;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  color: #e2c965;
+  font-size: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 0 7px rgb(119, 124, 117);
+  background-color: #fff;
+  position: relative;
+  top: 8px;
+}
+
+.expertise-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.expertise-item p {
+  margin-bottom: 0;
+  color: #fff;
+  line-height: 1.7;
+  font-family: 'Ubuntu';
+}
+
+.expertise-item .expertise-right {
+  padding-left: 80px;
+  position: relative;
+  margin-left: 30px;
+  margin-top: -80px;
+}
+
+.expertise-item .expertise-right img {
+  width: 100%;
+  z-index: 3;
+  height: 500px;
+  border-radius: 1px solid grey;
+  border-radius: 35px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+
+
